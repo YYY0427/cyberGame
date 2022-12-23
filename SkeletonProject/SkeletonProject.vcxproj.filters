@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3e1bfcf7-799c-4cfe-a596-7cbeb3d8a563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{92168504-8fd5-409b-9fe1-b59943b56ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\クイズ1問目">
+      <UniqueIdentifier>{04aa00b9-8b1b-4945-852b-4df1b878120f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\クイズ2問目">
+      <UniqueIdentifier>{cf99db9c-6853-4ede-b960-eec32c394db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\クイズ3問目">
+      <UniqueIdentifier>{cb220c4d-c3c4-4dad-9dcf-21d9945f7530}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawFunctions.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameoverScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\OptionScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PauseScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KeyConfigScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz.cpp">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizIncorrect.cpp">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClCompile>
+    <ClCompile Include="QuizCorrect.cpp">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz2.cpp">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz2Correct.cpp">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz2Incorrect.cpp">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz3.cpp">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz3Correct.cpp">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz3Incorrect.cpp">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputState.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawFunctions.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameoverScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\OptionScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PauseScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KeyConfigScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizIncorrect.h">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClInclude>
+    <ClInclude Include="QuizCorrect.h">
+      <Filter>Game\クイズ1問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz2.h">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz2Correct.h">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz2Incorrect.h">
+      <Filter>Game\クイズ2問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz3.h">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz3Correct.h">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz3Incorrect.h">
+      <Filter>Game\クイズ3問目</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkeletonProject.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
